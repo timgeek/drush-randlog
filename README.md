@@ -15,6 +15,7 @@ Copy any of these locations:
  --not-roles:  A list of roles to exclude from the the list from which the random user is chosen.                                                                  
  --path:  Optional path to redirect to after logging in.                                                                                                      
  --roles:  A list of roles to limit the the list from which the random user is chosen.  The Authenticated User is automatic and does not need to be specified.
+ --no-login:  Optional; forgoes login and returns a username matching any specified role-based criteria.
 
 # Aliases: rl
 

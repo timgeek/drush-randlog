@@ -12,7 +12,7 @@ function randlog_drush_command() {
       'not-roles' => 'A list of roles to exclude from the the list from which the random user is chosen.',
       'path' => 'Optional path to redirect to after logging in.',
       'browser' => 'Optional value denotes which browser to use (defaults to operating system default). Set to 0 to suppress opening a browser.',
-      'no-login' => 'Optional, forgoes login and returns a username.',
+      'no-login' => 'Optional, forgoes login and returns a username matching any specified role-based criteria.',
     ),
     'aliases' => array('rl'),
   );
